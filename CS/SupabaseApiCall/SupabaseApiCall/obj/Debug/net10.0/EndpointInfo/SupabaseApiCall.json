@@ -1,0 +1,61 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "SupabaseApiCall | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7157"
+    },
+    {
+      "url": "http://localhost:5258"
+    }
+  ],
+  "paths": {
+    "/clienti": {
+      "get": {
+        "tags": [
+          "SupabaseApiCall"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/vdaticli/{CodiceCliente}": {
+      "get": {
+        "tags": [
+          "SupabaseApiCall"
+        ],
+        "parameters": [
+          {
+            "name": "CodiceCliente",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "SupabaseApiCall"
+    }
+  ]
+}

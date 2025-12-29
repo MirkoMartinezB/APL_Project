@@ -1,0 +1,103 @@
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\appsettings.Development.json
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\appsettings.json
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\SupabaseApiCall.staticwebassets.endpoints.json
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\SupabaseApiCall.exe
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\SupabaseApiCall.deps.json
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\SupabaseApiCall.runtimeconfig.json
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\SupabaseApiCall.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\SupabaseApiCall.pdb
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\MimeMapping.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.Core.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.Functions.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.Gotrue.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.Postgrest.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.Realtime.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.Storage.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\System.Reactive.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Websocket.Client.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.csproj.AssemblyReference.cache
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.GeneratedMSBuildEditorConfig.editorconfig
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.AssemblyInfoInputs.cache
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.AssemblyInfo.cs
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.csproj.CoreCompileInputs.cache
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.MvcApplicationPartsAssemblyInfo.cs
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.MvcApplicationPartsAssemblyInfo.cache
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\scopedcss\bundle\SupabaseApiCall.styles.css
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\staticwebassets.build.json
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\staticwebassets.development.json
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\swae.build.ex.cache
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\Supabase.47241B26.Up2Date
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\refint\SupabaseApiCall.dll
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.pdb
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.genruntimeconfig.cache
+C:\My CS Projects\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\ref\SupabaseApiCall.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\appsettings.Development.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\appsettings.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\SupabaseApiCall.staticwebassets.endpoints.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\SupabaseApiCall.exe
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\SupabaseApiCall.deps.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\SupabaseApiCall.runtimeconfig.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\SupabaseApiCall.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\SupabaseApiCall.pdb
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\MimeMapping.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.Core.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.Functions.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.Gotrue.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.Postgrest.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.Realtime.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Supabase.Storage.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\System.Reactive.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Websocket.Client.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.csproj.AssemblyReference.cache
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.AssemblyInfoInputs.cache
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.AssemblyInfo.cs
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.csproj.CoreCompileInputs.cache
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.MvcApplicationPartsAssemblyInfo.cs
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.MvcApplicationPartsAssemblyInfo.cache
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.sourcelink.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\scopedcss\bundle\SupabaseApiCall.styles.css
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\staticwebassets.build.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\staticwebassets.development.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\swae.build.ex.cache
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\Supabase.47241B26.Up2Date
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\refint\SupabaseApiCall.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.pdb
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.genruntimeconfig.cache
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\ref\SupabaseApiCall.dll
