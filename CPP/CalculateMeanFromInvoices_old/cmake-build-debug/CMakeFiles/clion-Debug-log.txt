@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\MyAPL Projects\APL_Project\CPP\CalculateMeanFromInvoices Select CMakeLists.txt

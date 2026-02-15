@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupabaseApiCall")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6b4f486e0df877f76c84e57bb1af5af243e5bc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82ee26752fa52b45e76fef6c3ac0667d8003ce25")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupabaseApiCall")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupabaseApiCall")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

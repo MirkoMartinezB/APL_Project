@@ -1,38 +1,159 @@
 [
   {
-    "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0",
-    "RelativePath": "clienti/",
+    "ContainingType": "SupabaseApiCall.Controllers.ClientiController",
+    "Method": "Get",
+    "RelativePath": "clienti",
     "HttpMethod": "GET",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[SupabaseApiCall.Contracts.Anagrafiche.ClienteResponse, SupabaseApiCall, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
   },
   {
-    "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__1",
-    "RelativePath": "vdaticli/{CodiceCliente}",
+    "ContainingType": "SupabaseApiCall.Controllers.ClientiController",
+    "Method": "GetById",
+    "RelativePath": "clienti/{codiceCliente}",
     "HttpMethod": "GET",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "CodiceCliente",
+        "Name": "codiceCliente",
         "Type": "System.Int64",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "SupabaseApiCall.Contracts.Anagrafiche.ClienteResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SupabaseApiCall.Controllers.ClientiController",
+    "Method": "GetFatturatoMensile",
+    "RelativePath": "clienti/{codiceCliente}/fatturato",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codiceCliente",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "dal",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "al",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SupabaseApiCall.Contracts.DatiIntermedi.FatturatoMensileResponse, SupabaseApiCall, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SupabaseApiCall.Controllers.ClientiController",
+    "Method": "GetFatture",
+    "RelativePath": "clienti/{codiceCliente}/fatture",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codiceCliente",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "dal",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "al",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SupabaseApiCall.Contracts.DatiFinali.FatturaClienteResponse, SupabaseApiCall, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SupabaseApiCall.Controllers.ClientiController",
+    "Method": "GetStatistiche",
+    "RelativePath": "clienti/{codiceCliente}/statistiche",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codiceCliente",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "dal",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "al",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "k",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SupabaseApiCall.Contracts.DatiIntermedi.StatMensiliMedieResponse, SupabaseApiCall, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]

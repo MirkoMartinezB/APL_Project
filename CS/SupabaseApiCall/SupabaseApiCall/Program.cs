@@ -1,201 +1,58 @@
-using Microsoft.AspNetCore.DataProtection.KeyManagement;
-using SupabaseApiCall.Contracts.Anagrafiche;
-using SupabaseApiCall.Contracts.DatiIntermedi;
-using SupabaseApiCall.Contracts.CruscottiFinali;
-using SupabaseApiCall.Models;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using static Supabase.Postgrest.Constants;
+using SupabaseApiCall.Repositories;
+using SupabaseApiCall.Services;
+using SupabaseApiCall.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-
-var url = builder.Configuration["Supabase:Url"];
-var key = builder.Configuration["Supabase:key"];
-
-var options = new Supabase.SupabaseOptions
+// Tramite questa lambda vado a configurare il client Supabase che sarà un Singleton nell'app
+// Di volta in volta questo viene iniettato nei repository/servizi che ne hanno bisogno
+builder.Services.AddSingleton(supabaseService =>
 {
-    AutoConnectRealtime = true
-};
-var supabase = new Supabase.Client(url, key, options);
-await supabase.InitializeAsync();
+    var url = builder.Configuration["Supabase:Url"] ?? throw new InvalidOperationException("Url errato o assente");
+    var key = builder.Configuration["Supabase:Key"] ?? throw new InvalidOperationException("Key errata o assente");
+    var options = new Supabase.SupabaseOptions { AutoConnectRealtime = true };
+    return new Supabase.Client(url, key, options);
+});
 
-Console.WriteLine("Connessione a Supabase riuscita!");
+// Init async all'avvio 
+builder.Services.AddHostedService<SupabaseInitializer>();
+
+// App layers
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+builder.Services.AddScoped<IArticoloRepository, ArticoloRepository>();
+builder.Services.AddScoped<IFatturaClienteRepository, FatturaClienteRepository>();
+builder.Services.AddScoped<IFatturaFornitoreRepository, FatturaFornitoreRepository>();
+
+builder.Services.AddScoped<IClienteService, ClienteService>();
+builder.Services.AddScoped<IArticoloService, ArticoloService >();
+builder.Services.AddScoped<IFattureService, FattureService>();
+
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage(); 
     app.MapOpenApi();
 }
-
-/*
-app.MapGet("/cliente/{CodiceCliente}", async (long CodiceCliente) =>
+else
 {
+    app.UseExceptionHandler("/error");
+}
 
-    var response = await supabase
-        .From<Cliente>()
-        .Where(n => n.CodiceCliente == CodiceCliente)
-        .Get();
 
-    var cliente = response.Models.FirstOrDefault();
-
-    if (cliente is null)
-    {
-        return Results.NotFound();
-    }
-
-    var clienteResponse = new ClienteResponse
-    {
-        CodiceCliente = cliente.CodiceCliente,
-        RagioneSociale = cliente.RagioneSociale
-    };
-
-    return Results.Ok(clienteResponse);
-});
-*/
+app.MapControllers();
+app.Run();
 
 
 
-app.MapGet("/clienti/", async () =>
-{
-    var response = await supabase
-        .From<Cliente>()
-        .Get();
-
-
-    var listaClienteResponse = response.Models
-        .Select(c => new ClienteResponse
-        {
-            Codice = c.CodiceCliente,
-            RagioneSociale = c.RagioneSociale
-        })
-        .ToList();
-
-    return Results.Ok(listaClienteResponse);
-});
 
 
 
 /*
-
-app.MapGet("/articoli/", async () =>
-{
-    var response = await supabase
-        .From<Articolo>()
-        .Get();
-
-
-    var listaArticoloResponse = response.Models
-        .Select(a => new ArticoloResponse
-        {
-            CodiceArticolo = a.CodiceArticolo,
-            DescrizioneArticolo = a.DescrizioneArticolo
-        })
-        .ToList();
-
-    return Results.Ok(listaArticoloResponse);
-});
-
-app.MapGet("/articoli/{CodiceArticolo}", async (string CodiceArticolo) =>
-{
-
-    var response = await supabase
-        .From<Articolo>()
-        .Where(n => n.CodiceArticolo == CodiceArticolo)
-        .Get();
-
-
-    var articolo = response.Models.FirstOrDefault();
-
-    if (articolo is null)
-    {
-        return Results.NotFound();
-    }
-
-    var articoloResponse = new ArticoloResponse
-    {
-        CodiceArticolo = articolo.CodiceArticolo,
-        DescrizioneArticolo = articolo.DescrizioneArticolo
-    };
-
-    return Results.Ok(articoloResponse);
-});
-
-
-app.MapGet("/fatture/{CodiceCliente}", async (long CodiceCliente) =>
-{
-   
-
-    var response = await supabase
-        .From<FatturaCliente>()
-        .Where(n => n.CodiceCliente == CodiceCliente)
-        .Get();
-
-
-    var listaFattureClienteResponse = response.Models
-        .Select(f => new FatturaClienteResponse
-        {
-            CodiceCliente = f.CodiceCliente,
-            DataFattura = f.DataFattura,
-            NumeroFattura = f.NumeroFattura,
-            CodiceArticolo = f.CodiceArticolo,
-            QtaMovimento = f.QtaMovimento,
-            Prezzo = f.Prezzo,
-            ScontoPerc = f.ScontoPerc,
-            Importo = f.Importo,
-            ImportoIvato = f.ImportoIvato,
-            ImportoIva = f.ImportoIva,
-            AliquotaIva = f.AliquotaIva
-
-        })
-        .ToList();
-
-    return Results.Ok(listaFattureClienteResponse);
-});
-
-
-app.MapGet("/fatture/", async () =>
-{
-    var response = await supabase
-        .From<FatturaCliente>()
-        .Get();
-
-
-    var listaFattureClienteResponse = response.Models
-        .Select(f => new FatturaClienteResponse
-        {
-            CodiceCliente = f.CodiceCliente,
-            DataFattura = f.DataFattura,
-            NumeroFattura = f.NumeroFattura,
-            CodiceArticolo = f.CodiceArticolo,
-            QtaMovimento = f.QtaMovimento,
-            Prezzo = f.Prezzo,
-            ScontoPerc = f.ScontoPerc,
-            Importo = f.Importo,
-            ImportoIvato = f.ImportoIvato,
-            ImportoIva = f.ImportoIva,
-            AliquotaIva = f.AliquotaIva
-
-        })
-        .ToList();
-
-    return Results.Ok(listaFattureClienteResponse);
-});
-
-
-*/
-
-
-
-
 
 app.MapGet("/vdaticli/{CodiceCliente}", async (long CodiceCliente) =>
 {
@@ -242,8 +99,12 @@ app.MapGet("/vdaticli/{CodiceCliente}", async (long CodiceCliente) =>
             DescrizioneArticolo = articolo.DescrizioneArticolo
         };
     }
+   
 
     var dicArticoliMovimentati = new Dictionary<string, ArticoloResponse>();
+
+
+    var dicFatturatoAnnoMese = new Dictionary<string, double>();
 
 
     var responseFatture = await supabase
@@ -252,6 +113,8 @@ app.MapGet("/vdaticli/{CodiceCliente}", async (long CodiceCliente) =>
         .Get();
 
     var listaFattureClienteResponse = new List<FatturaClienteResponse>();
+
+    var listaFattureCpp = new List<FatturaParseCpp>();
 
 
     var dicFatture = new Dictionary<(int anno, long numero), FatturaClienteResponse>();
@@ -271,6 +134,13 @@ app.MapGet("/vdaticli/{CodiceCliente}", async (long CodiceCliente) =>
             dicFatture.Add(key, fatturaClienteResponse);
             listaFattureClienteResponse.Add(fatturaClienteResponse);
         }
+
+        if (!dicArticoliMovimentati.ContainsKey(fattura.CodiceArticolo))
+        {
+            dicArticoliMovimentati.Add(fattura.CodiceArticolo, dicArticoli[fattura.CodiceArticolo]);
+        }
+
+
         fatturaClienteResponse.TotaleFattura += fattura.ImportoIvato;
         fatturaClienteResponse.TotaleImporto += fattura.Importo;
         fatturaClienteResponse.AggiungiCorpo(
@@ -283,23 +153,60 @@ app.MapGet("/vdaticli/{CodiceCliente}", async (long CodiceCliente) =>
             fattura.ImportoIva,
             fattura.AliquotaIva
         );
-        if (!dicArticoliMovimentati.ContainsKey(fattura.CodiceArticolo)){
-            dicArticoliMovimentati.Add(fattura.CodiceArticolo, dicArticoli[fattura.CodiceArticolo]);
+        var keyAnnoMese = fattura.DataFattura.Year.ToString() + "_" + fattura.DataFattura.Month.ToString();
+
+        if (!dicFatturatoAnnoMese.ContainsKey(keyAnnoMese))
+        {
+            dicFatturatoAnnoMese.Add(keyAnnoMese, 0);
         }
+        dicFatturatoAnnoMese[keyAnnoMese] += fattura.ImportoIvato;
+
+        
+
+        //Popolo la lista per il calcolo C++
+        listaFattureCpp.Add(new FatturaParseCpp
+        {
+            Anno = fattura.DataFattura.Year,
+            Mese = fattura.DataFattura.Month,
+            CodiceArticolo = fattura.CodiceArticolo!,
+            QtaMovimento = fattura.QtaMovimento,
+            Importo = fattura.Importo
+        });     
+
+
     }
+    //Parsing delle fatture Clienti a C++ per calcolare il prezzo medio di vendita per articolo x mese
+    //trasformo in array per passarlo a C++
+    var arrayFattureCpp = listaFattureCpp.ToArray();
+    var arrayFattureResponseTmpCpp = new FatturaParseCpp[arrayFattureCpp.Length]; //array di risposta, dimensione massima come quella precendente ma sarà modificata
+
+    nuint returnedSize = 0;
+
+    
+
+
+    test.CalculateMeanFromInvoices(arrayFattureCpp, (nuint)arrayFattureCpp.Length, arrayFattureResponseTmpCpp, out returnedSize);
+
+    int sizeFinale = checked((int)returnedSize);
+
+    //Slice reale dell'array di risposta
+    var arrayFattureResponseCpp = arrayFattureResponseTmpCpp[0..sizeFinale];
+    
+
     cruscottoClienteBuilder.setFattureCliente(listaFattureClienteResponse);
 
     cruscottoClienteBuilder.setArticoliMovimentati(dicArticoliMovimentati);
 
-    //System.Console.WriteLine($"Articoli movimentati: {dicArticoliMovimentati.Count}");  
+    cruscottoClienteBuilder.setFatturatoAnnoMese(dicFatturatoAnnoMese);
+
+    
+    
+
 
     var responseFattureFornitori = await supabase
        .From<FatturaFornitore>()
        .Filter("CodiceArticolo", Operator.In, dicArticoliMovimentati.Keys.ToList())
        .Get();
-
-
-
 
 
 
@@ -338,15 +245,12 @@ app.MapGet("/vdaticli/{CodiceCliente}", async (long CodiceCliente) =>
 
     CruscottoClienteResponse Response = cruscottoClienteBuilder.Build();
 
-    
-
-
 
 
     return Results.Ok(Response);
 });
 
+*/
 
-
-app.UseHttpsRedirection();
-app.Run();
+//app.UseHttpsRedirection();
+//app.Run();
