@@ -101,3 +101,6 @@ C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10
 C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.pdb
 C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\SupabaseApiCall.genruntimeconfig.cache
 C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\obj\Debug\net10.0\ref\SupabaseApiCall.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\MyAPL Projects\APL_Project\CS\SupabaseApiCall\SupabaseApiCall\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

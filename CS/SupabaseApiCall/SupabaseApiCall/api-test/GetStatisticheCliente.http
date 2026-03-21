@@ -1,0 +1,6 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+GET https://localhost:7157/clienti/11564/statistiche?dal=2025-01-01&al=2025-01-31&k=6
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pcmtvLm1hcnRpbmV6YmF6YW5AZ21haWwuY29tIiwiZXhwIjoxNzczMzU2MjgxLCJ1c2VySWQiOjB9.jX4m1aHdSryd0plljGnKI_EK77y_lqKOaBcvwpN4SLA
+Accept: application/json
+
+

@@ -3,12 +3,64 @@
   "WorkspaceRootPath": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\api-test\\getstatistichecliente.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\api-test\\getstatistichecliente.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\api-test\\getfatturatocliente.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\api-test\\getfatturatocliente.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\infrastructure\\suparbaseinizializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\infrastructure\\suparbaseinizializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\controllers\\clienticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\controllers\\clienticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\api-test\\getcliente.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\api-test\\getcliente.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\api-test\\getfatturecliente.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\api-test\\getfatturecliente.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\api-test\\getclienti.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\api-test\\getclienti.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\infrastructure\\jwtvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\infrastructure\\jwtvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\servicesexternal\\prezzimediarticoliexternalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\servicesexternal\\prezzimediarticoliexternalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\services\\fattureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\services\\fattureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\contracts\\datiintermedi\\statmensilimedieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\contracts\\datiintermedi\\statmensilimedieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\services\\ifattureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +71,12 @@
       "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\repositories\\ifatturaclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\servicesexternal\\prezzimediarticoliexternalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\servicesexternal\\prezzimediarticoliexternalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\contracts\\datiintermedi\\statmensilimedieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\contracts\\datiintermedi\\statmensilimedieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\repositories\\articolorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\repositories\\articolorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\repositories\\ifatturafornitorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\repositories\\ifatturafornitorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\repositories\\iarticolorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,24 +115,12 @@
       "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\contracts\\datifinali\\fatturaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\contracts\\datiintermedi\\fatturaparsecpp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\contracts\\datiintermedi\\fatturaparsecpp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\contracts\\datiintermedi\\fatturatomensileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\contracts\\datiintermedi\\fatturatomensileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\contracts\\anagrafiche\\articoloresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\contracts\\anagrafiche\\articoloresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\infrastructure\\suparbaseinizializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\infrastructure\\suparbaseinizializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,10 +143,6 @@
       "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\contracts\\anagrafiche\\clienteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|c:\\myapl projects\\apl_project\\cs\\supabaseapicall\\supabaseapicall\\models\\fornitore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BF99BF9-26BC-085B-09C1-23F802D18FE8}|SupabaseApiCall\\SupabaseApiCall.csproj|solutionrelative:supabaseapicall\\models\\fornitore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -130,21 +154,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Program.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Program.cs",
               "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Program.cs",
               "RelativeToolTip": "SupabaseApiCall\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T15:53:46.979Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -152,20 +175,116 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StatMensiliMedieResponse.cs",
-              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\DatiIntermedi\\StatMensiliMedieResponse.cs",
-              "RelativeDocumentMoniker": "SupabaseApiCall\\Contracts\\DatiIntermedi\\StatMensiliMedieResponse.cs",
-              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\DatiIntermedi\\StatMensiliMedieResponse.cs*",
-              "RelativeToolTip": "SupabaseApiCall\\Contracts\\DatiIntermedi\\StatMensiliMedieResponse.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAA8wBkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T08:14:48.685Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "GetStatisticheCliente.http",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\api-test\\GetStatisticheCliente.http",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\api-test\\GetStatisticheCliente.http",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\api-test\\GetStatisticheCliente.http",
+              "RelativeToolTip": "SupabaseApiCall\\api-test\\GetStatisticheCliente.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-07T16:16:07.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetFatturatoCliente.http",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\api-test\\GetFatturatoCliente.http",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\api-test\\GetFatturatoCliente.http",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\api-test\\GetFatturatoCliente.http",
+              "RelativeToolTip": "SupabaseApiCall\\api-test\\GetFatturatoCliente.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-07T16:10:54.012Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "SuparbaseInizializer.cs",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Infrastructure\\SuparbaseInizializer.cs",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\Infrastructure\\SuparbaseInizializer.cs",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Infrastructure\\SuparbaseInizializer.cs",
+              "RelativeToolTip": "SupabaseApiCall\\Infrastructure\\SuparbaseInizializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T15:09:22.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientiController.cs",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Controllers\\ClientiController.cs",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\Controllers\\ClientiController.cs",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Controllers\\ClientiController.cs",
+              "RelativeToolTip": "SupabaseApiCall\\Controllers\\ClientiController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T15:29:43.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\ClienteService.cs",
+              "RelativeToolTip": "SupabaseApiCall\\Services\\ClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T15:28:22.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetCliente.http",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\api-test\\GetCliente.http",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\api-test\\GetCliente.http",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\api-test\\GetCliente.http",
+              "RelativeToolTip": "SupabaseApiCall\\api-test\\GetCliente.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-07T16:05:38.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\appsettings.json",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\appsettings.json",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\appsettings.json",
+              "RelativeToolTip": "SupabaseApiCall\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-03T08:19:12.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetClienti.http",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\api-test\\GetClienti.http",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\api-test\\GetClienti.http",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\api-test\\GetClienti.http",
+              "RelativeToolTip": "SupabaseApiCall\\api-test\\GetClienti.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-12T22:11:15.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetFattureCliente.http",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\api-test\\GetFattureCliente.http",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\api-test\\GetFattureCliente.http",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\api-test\\GetFattureCliente.http",
+              "RelativeToolTip": "SupabaseApiCall\\api-test\\GetFattureCliente.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-07T16:14:05.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "PrezziMediArticoliExternalService.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\ServicesExternal\\PrezziMediArticoliExternalService.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\ServicesExternal\\PrezziMediArticoliExternalService.cs",
@@ -173,77 +292,23 @@
               "RelativeToolTip": "SupabaseApiCall\\ServicesExternal\\PrezziMediArticoliExternalService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T15:54:03.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T15:54:03.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IFatturaClienteRepository.cs",
-              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\IFatturaClienteRepository.cs",
-              "RelativeDocumentMoniker": "SupabaseApiCall\\Repositories\\IFatturaClienteRepository.cs",
-              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\IFatturaClienteRepository.cs",
-              "RelativeToolTip": "SupabaseApiCall\\Repositories\\IFatturaClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "JWTValidator.cs",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Infrastructure\\JWTValidator.cs",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\Infrastructure\\JWTValidator.cs",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Infrastructure\\JWTValidator.cs",
+              "RelativeToolTip": "SupabaseApiCall\\Infrastructure\\JWTValidator.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T13:58:55.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T10:41:42.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IFattureService.cs",
-              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\IFattureService.cs",
-              "RelativeDocumentMoniker": "SupabaseApiCall\\Services\\IFattureService.cs",
-              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\IFattureService.cs",
-              "RelativeToolTip": "SupabaseApiCall\\Services\\IFattureService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T20:39:50.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FattureService.cs",
-              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\FattureService.cs",
-              "RelativeDocumentMoniker": "SupabaseApiCall\\Services\\FattureService.cs",
-              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\FattureService.cs",
-              "RelativeToolTip": "SupabaseApiCall\\Services\\FattureService.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAArwOMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T14:13:55.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientiController.cs",
-              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Controllers\\ClientiController.cs",
-              "RelativeDocumentMoniker": "SupabaseApiCall\\Controllers\\ClientiController.cs",
-              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Controllers\\ClientiController.cs",
-              "RelativeToolTip": "SupabaseApiCall\\Controllers\\ClientiController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAcwFMAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T15:29:43.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ArticoloRepository.cs",
-              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\ArticoloRepository.cs",
-              "RelativeDocumentMoniker": "SupabaseApiCall\\Repositories\\ArticoloRepository.cs",
-              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\ArticoloRepository.cs",
-              "RelativeToolTip": "SupabaseApiCall\\Repositories\\ArticoloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T09:14:31.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "IClienteRepository.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\IClienteRepository.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Repositories\\IClienteRepository.cs",
@@ -251,12 +316,71 @@
               "RelativeToolTip": "SupabaseApiCall\\Repositories\\IClienteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T15:25:07.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-28T15:25:07.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
+              "Title": "FattureService.cs",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\FattureService.cs",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\Services\\FattureService.cs",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\FattureService.cs",
+              "RelativeToolTip": "SupabaseApiCall\\Services\\FattureService.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAArwOMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T14:13:55.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IFattureService.cs",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\IFattureService.cs",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\Services\\IFattureService.cs",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\IFattureService.cs",
+              "RelativeToolTip": "SupabaseApiCall\\Services\\IFattureService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T20:39:50.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IFatturaClienteRepository.cs",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\IFatturaClienteRepository.cs",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\Repositories\\IFatturaClienteRepository.cs",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\IFatturaClienteRepository.cs",
+              "RelativeToolTip": "SupabaseApiCall\\Repositories\\IFatturaClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:58:55.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ArticoloRepository.cs",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\ArticoloRepository.cs",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\Repositories\\ArticoloRepository.cs",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\ArticoloRepository.cs",
+              "RelativeToolTip": "SupabaseApiCall\\Repositories\\ArticoloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T09:14:31.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StatMensiliMedieResponse.cs",
+              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\DatiIntermedi\\StatMensiliMedieResponse.cs",
+              "RelativeDocumentMoniker": "SupabaseApiCall\\Contracts\\DatiIntermedi\\StatMensiliMedieResponse.cs",
+              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\DatiIntermedi\\StatMensiliMedieResponse.cs",
+              "RelativeToolTip": "SupabaseApiCall\\Contracts\\DatiIntermedi\\StatMensiliMedieResponse.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwBkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T08:14:48.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "IArticoloRepository.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\IArticoloRepository.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Repositories\\IArticoloRepository.cs",
@@ -264,12 +388,11 @@
               "RelativeToolTip": "SupabaseApiCall\\Repositories\\IArticoloRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T09:14:25.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T09:14:25.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "FatturaClienteRepository.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\FatturaClienteRepository.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Repositories\\FatturaClienteRepository.cs",
@@ -277,12 +400,11 @@
               "RelativeToolTip": "SupabaseApiCall\\Repositories\\FatturaClienteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T21:18:53.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T21:18:53.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "FornitoreResponse.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\Anagrafiche\\FornitoreResponse.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Contracts\\Anagrafiche\\FornitoreResponse.cs",
@@ -290,12 +412,11 @@
               "RelativeToolTip": "SupabaseApiCall\\Contracts\\Anagrafiche\\FornitoreResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T08:51:01.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T08:51:01.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "Controparte.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\Anagrafiche\\Controparte.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Contracts\\Anagrafiche\\Controparte.cs",
@@ -303,12 +424,11 @@
               "RelativeToolTip": "SupabaseApiCall\\Contracts\\Anagrafiche\\Controparte.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T08:48:53.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T08:48:53.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "IFatturaFornitoreRepository.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\IFatturaFornitoreRepository.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Repositories\\IFatturaFornitoreRepository.cs",
@@ -316,12 +436,11 @@
               "RelativeToolTip": "SupabaseApiCall\\Repositories\\IFatturaFornitoreRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T10:27:54.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T10:27:54.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "FatturaClienteResponse.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\DatiFinali\\FatturaClienteResponse.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Contracts\\DatiFinali\\FatturaClienteResponse.cs",
@@ -329,12 +448,11 @@
               "RelativeToolTip": "SupabaseApiCall\\Contracts\\DatiFinali\\FatturaClienteResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T08:26:23.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T08:26:23.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "FatturaCorpo.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\DatiFinali\\FatturaCorpo.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Contracts\\DatiFinali\\FatturaCorpo.cs",
@@ -342,12 +460,11 @@
               "RelativeToolTip": "SupabaseApiCall\\Contracts\\DatiFinali\\FatturaCorpo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T08:53:18.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T08:53:18.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "FatturaFornitoreRepository .cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\FatturaFornitoreRepository .cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Repositories\\FatturaFornitoreRepository .cs",
@@ -355,12 +472,11 @@
               "RelativeToolTip": "SupabaseApiCall\\Repositories\\FatturaFornitoreRepository .cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T20:41:40.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T20:41:40.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "FatturaFornitoreResponse.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\DatiFinali\\FatturaFornitoreResponse.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Contracts\\DatiFinali\\FatturaFornitoreResponse.cs",
@@ -368,12 +484,11 @@
               "RelativeToolTip": "SupabaseApiCall\\Contracts\\DatiFinali\\FatturaFornitoreResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T08:26:34.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T08:26:34.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "FatturaResponse.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\DatiFinali\\FatturaResponse.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Contracts\\DatiFinali\\FatturaResponse.cs",
@@ -381,25 +496,11 @@
               "RelativeToolTip": "SupabaseApiCall\\Contracts\\DatiFinali\\FatturaResponse.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwAgAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T14:16:49.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T14:16:49.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FatturaParseCpp.cs",
-              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\DatiIntermedi\\FatturaParseCpp.cs",
-              "RelativeDocumentMoniker": "SupabaseApiCall\\Contracts\\DatiIntermedi\\FatturaParseCpp.cs",
-              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\DatiIntermedi\\FatturaParseCpp.cs",
-              "RelativeToolTip": "SupabaseApiCall\\Contracts\\DatiIntermedi\\FatturaParseCpp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T09:14:09.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "FatturatoMensileResponse.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\DatiIntermedi\\FatturatoMensileResponse.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Contracts\\DatiIntermedi\\FatturatoMensileResponse.cs",
@@ -407,12 +508,11 @@
               "RelativeToolTip": "SupabaseApiCall\\Contracts\\DatiIntermedi\\FatturatoMensileResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T20:35:27.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-29T20:35:27.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "ArticoloResponse.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\Anagrafiche\\ArticoloResponse.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Contracts\\Anagrafiche\\ArticoloResponse.cs",
@@ -424,19 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SuparbaseInizializer.cs",
-              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Infrastructure\\SuparbaseInizializer.cs",
-              "RelativeDocumentMoniker": "SupabaseApiCall\\Infrastructure\\SuparbaseInizializer.cs",
-              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Infrastructure\\SuparbaseInizializer.cs",
-              "RelativeToolTip": "SupabaseApiCall\\Infrastructure\\SuparbaseInizializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T15:09:22.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Repositories\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Repositories\\ClienteRepository.cs",
@@ -448,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "IClienteService.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\IClienteService.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Services\\IClienteService.cs",
@@ -460,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "IArticoloService.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\IArticoloService.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Services\\IArticoloService.cs",
@@ -472,19 +560,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "ArticoloService.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\ArticoloService.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Services\\ArticoloService.cs",
               "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\ArticoloService.cs",
               "RelativeToolTip": "SupabaseApiCall\\Services\\ArticoloService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-29T21:07:45.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "ClienteResponse.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Contracts\\Anagrafiche\\ClienteResponse.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Contracts\\Anagrafiche\\ClienteResponse.cs",
@@ -496,19 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ClienteService.cs",
-              "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\ClienteService.cs",
-              "RelativeDocumentMoniker": "SupabaseApiCall\\Services\\ClienteService.cs",
-              "ToolTip": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Services\\ClienteService.cs",
-              "RelativeToolTip": "SupabaseApiCall\\Services\\ClienteService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T15:28:22.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "Fornitore.cs",
               "DocumentMoniker": "C:\\MyAPL Projects\\APL_Project\\CS\\SupabaseApiCall\\SupabaseApiCall\\Models\\Fornitore.cs",
               "RelativeDocumentMoniker": "SupabaseApiCall\\Models\\Fornitore.cs",

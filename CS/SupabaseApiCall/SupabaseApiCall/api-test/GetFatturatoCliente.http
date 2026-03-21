@@ -1,0 +1,5 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+GET https://localhost:7157/clienti/13856/fatturato?dal=2024-01-01&al=2025-12-31
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pcmtvLm1hcnRpbmV6YmF6YW5AZ21haWwuY29tIiwiZXhwIjoxNzczNjAzODkyLCJ1c2VySWQiOjB9.zwx_ofyjN6vvA5b51OZTYpRt4khGATXlpzzODWR3rmg
+Accept: application/json
+

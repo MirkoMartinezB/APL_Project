@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SupabaseApiCall.Contracts.Anagrafiche;
 using SupabaseApiCall.Contracts.DatiFinali;
 using SupabaseApiCall.Contracts.DatiIntermedi;
@@ -19,14 +20,14 @@ public class ClientiController : ControllerBase
         _service = service;
         _fattureService = fattureService;
     }
-
+    [Authorize]
     [HttpGet("")]
     public async Task<ActionResult<IReadOnlyList<ClienteResponse>>> Get()
     {
         var result = await _service.GetClientiAsync();
         return Ok(result);
     }
-    //Per test clienti/17790
+    [Authorize]
     [HttpGet("{codiceCliente:long}")]
     public async Task<ActionResult<ClienteResponse>> GetById(long codiceCliente)
     {
@@ -37,7 +38,8 @@ public class ClientiController : ControllerBase
 
         return Ok(cliente);
     }
-    //Per test /clienti/17790/fatturato?dal=2024-01-01&al=2025-12-31
+    
+    [Authorize]
     [HttpGet("{codiceCliente:long}/fatturato")]
     public async Task<ActionResult<List<FatturatoMensileResponse>>> GetFatturatoMensile(
         long codiceCliente,
@@ -52,7 +54,8 @@ public class ClientiController : ControllerBase
 
         return Ok(result);
     }
-    //Per test /clienti/17790/fatture?dal=2024-01-01&al=2025-12-31
+    
+    [Authorize]
     [HttpGet("{codiceCliente:long}/fatture")]
     public async Task<ActionResult<List<FatturaClienteResponse>>> GetFatture(
         long codiceCliente,
@@ -67,6 +70,7 @@ public class ClientiController : ControllerBase
 
         return Ok(result);
     }
+    [Authorize]
     [HttpGet("{codiceCliente:long}/statistiche")]
     public async Task<ActionResult<List<StatMensiliMedieResponse>>> GetStatistiche(
         long codiceCliente,

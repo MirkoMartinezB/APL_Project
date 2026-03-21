@@ -1,0 +1,4 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+GET https://localhost:7157/clienti/11564
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pcmtvLm1hcnRpbmV6YmF6YW5AZ21haWwuY29tIiwiZXhwIjoxNzcyOTA2MzI5LCJ1c2VySWQiOjB9.-IbgWvypHJ_dL7Nq1roFdBOpZBfP3BpwOCfoG0LJjGk
+Accept: application/json

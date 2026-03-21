@@ -1,0 +1,3 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+GET https://localhost:7157/clienti/11564/fatture?dal=2024-01-01&al=2025-12-31
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pcmtvLm1hcnRpbmV6YmF6YW5AZ21haWwuY29tIiwiZXhwIjoxNzczNzAyNjgzLCJ1c2VySWQiOjB9.d-XnTZwru1jUk1B-lL3iTcSi0q34P3fsgm7onUCleOg
